@@ -1,0 +1,9 @@
+DIRECTORI CONTROLADORS
+
+Aquest directori conte el codi dels controladors de l'aplicacio. Queden llistats a continuacio en
+ordre alfabetic:
+
+- ControladorConsulta -> Controlador de consultes de l'aplicio
+- CtrlDocument -> Controlador de documents de l'aplicio
+- CtrlDomini -> Controlador de domini de l'aplicacio
+- CtrlExprBooleanes -> Controlador d'expressions booleanes de l'aplicacio

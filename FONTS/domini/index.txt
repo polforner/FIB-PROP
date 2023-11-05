@@ -1,0 +1,10 @@
+DIRECTORI domini
+
+Aquest directori conte el codi de tota la capa de domini dividit en tres subdirectoris que queden llistats
+a continuacio:
+
+- Clases -> Classes normals de l'aplicacio
+
+- controladors -> Controladors de l'aplicacio
+
+- Drivers -> Drivers per provar les funcionalitats principals de l'aplicacio

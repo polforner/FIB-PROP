@@ -1,0 +1,10 @@
+Aquest es el directori arrel del projecte. Conte els directoris principals de l'entrega i el fitxer stopwords.txt
+que conte les stopwords contemplades per l'aplcicacio. Una breu descripcio dels subdirectoris principals:
+
+- DOCS: Documentacio i fitxers corresponents a l'entrega, no conte codi
+
+- FONTS: Codi font de les classes, controladors, tests unitaris de classes i
+         controladors i drivers de l'entrega junt amb el Makefile per compilar-los
+
+- EXE: Executables per provar les classes i funcionalitats principals de l'aplicacio
+       junt amb la descripcio de cada joc de proves i els jocs de proves

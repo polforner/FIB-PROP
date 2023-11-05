@@ -1,0 +1,7 @@
+DIRECTORI TEST
+
+Aquest directori conte el codi dels diferents tests unitaris fets per testejar les classes de l'aplicacio.
+Conte dos directoris, pels testos de classes i els testos de controladors:
+
+ - Clases -> tests unitaris de classes
+ - Controladors -> test unitaris de controladors

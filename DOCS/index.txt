@@ -1,0 +1,18 @@
+DIRECTORI DOCS
+
+Aquest directori conte tots els fitxers de documentacio del projecte, llistats a continiuacio. L'unic fitxer de documentacio
+que no es troba en aquest directori es la documentacio de jocs de proves que es troba a cada subdirectori
+del directori EXEC, a rao de un fitxer per test unitari/driver.
+
+- DiagramaEstaticDisseny.pdf/DiagramaEstaticDisseny.png -> Model UML de l'aplicacio en versio dissney
+
+- EstructuresDeDadesAlgorismes.pdf -> Documentacio de les estructures de dades i algorismes usats per implementar
+                                      les funcionalitats principals de l'aplicacio
+
+- CasosUs.pdf/CasosUs.png -> Documentacio dels casos d'us de l'aplicacio, el fitxer conte el diagrama de casos d'us i la descripcio
+                 de cadascun d'ells
+
+- DistribucioClasses.pdf -> Relacio de les classes implementades per cada membre del grup
+
+- Directori JavaDoc -> Documentacio de les classes, metodes i atributs de cadascuna
+

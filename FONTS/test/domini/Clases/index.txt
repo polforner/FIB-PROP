@@ -1,0 +1,3 @@
+DIRECTORI CLASES
+
+Aquest directori conte tots els test unitaris de les classes de l'aplicacio.

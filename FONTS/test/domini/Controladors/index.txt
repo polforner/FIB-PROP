@@ -1,0 +1,3 @@
+DIRECTORI CONTROLADORS
+
+Aquest directori conte tots els test unitaris dels controladors de l'aplicacio.

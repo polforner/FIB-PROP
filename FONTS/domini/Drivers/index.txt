@@ -1,0 +1,6 @@
+DIRECTORI DRIVERS
+
+Aquest directori conte el codi dels drivers necessaris per poder provar les funcionalitats principals
+de l'aplicacio. Queden llistats a continuacio en ordre alfabetic:
+
+- DriverFileSystem -> Driver per provar les funcionalitats principals de la primera entrega de l'aplicacio

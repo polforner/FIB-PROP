@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaModificarDoc">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="abe7a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b01d0" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d1a13" class="javax.swing.JLabel" binding="lAutor">
+                <constraints/>
+                <properties>
+                  <text value="autor"/>
+                </properties>
+              </component>
+              <component id="7c4d" class="javax.swing.JTextArea" binding="autor">
+                <constraints/>
+                <properties>
+                  <lineWrap value="true"/>
+                  <minimumSize width="100" height="15"/>
+                </properties>
+              </component>
+              <component id="2a802" class="javax.swing.JLabel" binding="lTitol">
+                <constraints/>
+                <properties>
+                  <text value="titol"/>
+                </properties>
+              </component>
+              <component id="91b7f" class="javax.swing.JTextArea" binding="titol">
+                <constraints/>
+                <properties>
+                  <lineWrap value="true"/>
+                  <minimumSize width="100" height="15"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="d13" class="javax.swing.JLabel" binding="titolVista">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Modificar document"/>
+            </properties>
+          </component>
+          <scrollpane id="41">
+            <constraints border-constraint="South"/>
+            <properties>
+              <minimumSize width="14" height="15"/>
+              <preferredSize width="256" height="64"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a0de2" class="javax.swing.JList" binding="titolautors">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="43543" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="62cf2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="661ea" class="javax.swing.JButton" binding="bModificar">
+                <constraints/>
+                <properties>
+                  <text value="modificar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4fffd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c14b2" class="javax.swing.JButton" binding="bSortir">
+                <constraints/>
+                <properties>
+                  <text value="Sortir"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="bb6ea">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ada94" class="javax.swing.JTextArea" binding="documents">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <lineWrap value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

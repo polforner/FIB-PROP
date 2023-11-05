@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaModificacio">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="c598d">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="de48e" class="javax.swing.JTextArea" binding="contingut">
+            <constraints/>
+            <properties>
+              <editable value="true"/>
+              <lineWrap value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="e1014" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ce06f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f330" class="javax.swing.JButton" binding="bUndo">
+                <constraints/>
+                <properties>
+                  <text value="Undo"/>
+                </properties>
+              </component>
+              <component id="b447c" class="javax.swing.JButton" binding="bRedo">
+                <constraints/>
+                <properties>
+                  <text value="Redo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4f1ae" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4d50b" class="javax.swing.JButton" binding="bFi">
+                <constraints/>
+                <properties>
+                  <text value="Modificar"/>
+                </properties>
+              </component>
+              <component id="ab048" class="javax.swing.JButton" binding="bCancel">
+                <constraints/>
+                <properties>
+                  <text value="Cancelar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="6afb1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="99e23" class="javax.swing.JLabel" binding="titolVista">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="modificacio"/>
+            </properties>
+          </component>
+          <grid id="1e76f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="529d8" class="javax.swing.JLabel" binding="lautor">
+                <constraints/>
+                <properties>
+                  <text value="nou autor"/>
+                </properties>
+              </component>
+              <component id="441" class="javax.swing.JTextArea" binding="nouAutor">
+                <constraints/>
+                <properties>
+                  <lineWrap value="true"/>
+                  <minimumSize width="10" height="15"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="558aa" class="javax.swing.JLabel" binding="ltitol">
+                <constraints/>
+                <properties>
+                  <text value="nou titol "/>
+                </properties>
+              </component>
+              <component id="7166" class="javax.swing.JTextArea" binding="nouTitol">
+                <constraints/>
+                <properties>
+                  <lineWrap value="true"/>
+                  <minimumSize width="10" height="15"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

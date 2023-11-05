@@ -1,0 +1,15 @@
+DIRECTORI FONTS
+
+Aquest directori conte el codi font del programa, contingut completament dins del subdirectori /domini/, ja que,
+en aquesta primera entrega nomes tenim capa de domini. Tambe conte un Makefile amb el que es pot compilar el driver
+que prova les funcionalitats principals de l'aplicacio i el fitxer de stopwords de l'aplicacio per poder compilar
+el codi.
+
+- /domini/ -> Codi de la capa de domini de l'aplicacio
+- /test/ -> Codi del test
+
+Funcionament Makefile(en la terminal del sistema operatiu):
+    > make driver --> per compilar el driver
+    > make tests --> per compilar els testos unitaris de les classes i els controladors
+    > make run_driver --> per executar el driver
+    > make clean --> per netejar els fitxers .class creats en la compilacio

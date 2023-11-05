@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaAltaExpressio">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e9626" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="28ef4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e2d34" class="javax.swing.JButton" binding="bAlta">
+                <constraints/>
+                <properties>
+                  <text value="Alta"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2186" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="51b24" class="javax.swing.JButton" binding="bSortir">
+                <constraints/>
+                <properties>
+                  <text value="Sortir"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d057a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="664ea" class="javax.swing.JLabel" binding="titolVista">
+            <constraints border-constraint="South"/>
+            <properties>
+              <text value="Alta expressio booleana"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="70a02">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8e8f8" class="javax.swing.JTextArea" binding="expressio">
+            <constraints/>
+            <properties>
+              <lineWrap value="true"/>
+              <text value="Introdueix expressio"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

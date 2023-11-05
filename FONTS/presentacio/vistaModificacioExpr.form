@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaModificacioExpr">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="da54f" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="670a8" class="javax.swing.JLabel" binding="titolVista">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="modificacio"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4c705" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="621df" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3eeb8" class="javax.swing.JButton" binding="bUndo">
+                <constraints/>
+                <properties>
+                  <text value="Undo"/>
+                </properties>
+              </component>
+              <component id="a48fc" class="javax.swing.JButton" binding="bRedo">
+                <constraints/>
+                <properties>
+                  <text value="Redo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d7c1b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7cd9c" class="javax.swing.JButton" binding="bFi">
+                <constraints/>
+                <properties>
+                  <text value="Modificar"/>
+                </properties>
+              </component>
+              <component id="8f400" class="javax.swing.JButton" binding="bCancel">
+                <constraints/>
+                <properties>
+                  <text value="Cancelar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="3ebe3">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7c771" class="javax.swing.JTextArea" binding="expressio">
+            <constraints/>
+            <properties>
+              <editable value="true"/>
+              <lineWrap value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

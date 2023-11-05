@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaCreacio">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c94ad" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c96e6" class="javax.swing.JLabel" binding="titolVista">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Creacio"/>
+            </properties>
+          </component>
+          <component id="3c008" class="javax.swing.JLabel">
+            <constraints border-constraint="South"/>
+            <properties>
+              <text value="Introdueix contingut"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="58b1b" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d7542" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e6671" class="javax.swing.JButton" binding="bFi">
+                <constraints/>
+                <properties>
+                  <text value="Crea"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e858b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3f847" class="javax.swing.JButton" binding="bRedo">
+                <constraints/>
+                <properties>
+                  <text value="Redo"/>
+                </properties>
+              </component>
+              <component id="72dcf" class="javax.swing.JButton" binding="bUndo">
+                <constraints/>
+                <properties>
+                  <text value="Undo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="730ec">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b4871" class="javax.swing.JTextArea" binding="contingutActual">
+            <constraints/>
+            <properties>
+              <editable value="true"/>
+              <lineWrap value="true"/>
+              <text value=""/>
+              <wrapStyleWord value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

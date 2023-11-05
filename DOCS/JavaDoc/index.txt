@@ -1,0 +1,4 @@
+DIRECTORI JAVADOC
+
+Aquest directori conte la documentacio JavaDoc en la que estan documentades breument totes les classes de
+l'aplicacio.

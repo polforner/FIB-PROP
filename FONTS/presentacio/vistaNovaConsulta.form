@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="presentacio.vistaNovaConsulta">
+  <grid id="27dc6" binding="lamina" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="691" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e1092" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="87f82" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="56b0c" class="javax.swing.JButton" binding="bSortir">
+                <constraints/>
+                <properties>
+                  <text value="sortir"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="82735" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f6012" class="javax.swing.JButton" binding="bIniConsulta">
+                <constraints/>
+                <properties>
+                  <text value="Iniciar Consulta"/>
+                </properties>
+              </component>
+              <component id="ccbf1" class="javax.swing.JButton" binding="bClean">
+                <constraints/>
+                <properties>
+                  <text value="Esborra resultat"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <tabbedpane id="9da40" binding="tabbedPane1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d5d80" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Consulta titols autor"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="76fca" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="12d91" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="62098" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="autor"/>
+                        </properties>
+                      </component>
+                      <component id="60805" class="javax.swing.JTextArea" binding="autorConsulta1">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="250" height="15"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="40c8b" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="3cb5f" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta titols del autor"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="67799">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="380" height="128"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="20107" class="javax.swing.JList" binding="autors">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="afbea">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="70431" class="javax.swing.JTextArea" binding="resultat1">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="e4fe3" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Consulta prefix autor"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="d80e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="9cc04" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="12141" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="prefix"/>
+                        </properties>
+                      </component>
+                      <component id="80628" class="javax.swing.JTextArea" binding="prefix">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="250" height="15"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="84901" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="5662d" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta autors per prefix"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="8ad1">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="9aa24" class="javax.swing.JTextArea" binding="resultat2">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="93d44" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Consulta contingut"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="63c2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="70f5a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="4dfbc" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="autor"/>
+                        </properties>
+                      </component>
+                      <component id="e0bde" class="javax.swing.JTextArea" binding="autor2">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="253d6" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="titol"/>
+                        </properties>
+                      </component>
+                      <component id="e3e34" class="javax.swing.JTextArea" binding="titol2">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="72d24" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="8ecf7" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta contingut de document"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="22cee">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="380" height="128"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c00da" class="javax.swing.JList" binding="titolsautors1">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="645c4">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e62ed" class="javax.swing.JTextArea" binding="resultat3">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="e9cb7" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="K document semblant"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="969cc" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="e5cf6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="fc2c8" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="autor"/>
+                        </properties>
+                      </component>
+                      <component id="d9e5c" class="javax.swing.JTextArea" binding="autor">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="49844" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="titol"/>
+                        </properties>
+                      </component>
+                      <component id="3f9da" class="javax.swing.JTextArea" binding="titol">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="47ce1" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="k"/>
+                        </properties>
+                      </component>
+                      <component id="51c31" class="javax.swing.JTextArea" binding="kSemblant">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1e36e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="d570c" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta k documents mes semblants"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="361bb">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="380" height="128"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="83bbd" class="javax.swing.JList" binding="titolsautors2">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="6a72f">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e4d4b" class="javax.swing.JTextArea" binding="resultat4">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="c3368" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="K document rellevant"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="3008c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="c97e2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="5cd0b" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="paraula"/>
+                        </properties>
+                      </component>
+                      <component id="df0d7" class="javax.swing.JTextArea" binding="paraula">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="34402" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="k"/>
+                        </properties>
+                      </component>
+                      <component id="bc068" class="javax.swing.JTextArea" binding="kRellevant">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="69221" class="javax.swing.JButton" binding="bInsert">
+                        <constraints/>
+                        <properties>
+                          <text value="Insert"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c7cd8" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c533b" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta k documents mes rellevants"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="c2e69">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="c8f54" class="javax.swing.JList" binding="query">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="d2aed">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1064d" class="javax.swing.JTextArea" binding="resultat5">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="6f9b1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Consulta expressio booleana"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="ad64" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="2ade5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="dfb9" class="javax.swing.JLabel">
+                        <constraints/>
+                        <properties>
+                          <text value="expressio"/>
+                        </properties>
+                      </component>
+                      <component id="3e337" class="javax.swing.JTextArea" binding="expressio">
+                        <constraints/>
+                        <properties>
+                          <lineWrap value="true"/>
+                          <minimumSize width="200" height="15"/>
+                        </properties>
+                      </component>
+                      <component id="22c0" class="javax.swing.JRadioButton" binding="bGuardar">
+                        <constraints/>
+                        <properties>
+                          <text value="Guardar expressio"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="222cb" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="c689f" class="javax.swing.JLabel">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Consulta documents per expressio booleana"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="932d5">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="380" height="128"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2a86" class="javax.swing.JList" binding="expressions">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="c5734">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="db43e" class="javax.swing.JTextArea" binding="resultat6">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <lineWrap value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="65448" class="javax.swing.JLabel" binding="titolVista">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Nova consulta"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

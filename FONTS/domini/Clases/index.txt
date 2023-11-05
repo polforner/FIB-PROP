@@ -1,0 +1,24 @@
+DIRECTORI CLASES
+
+Aquest directori conte tot el codi de les classes normals de l'aplicacio, es a dir, totes les que no son controladors.
+Les classes queden llistades a continuacio en ordre alfabetic:
+
+- BinTree -> Classe d'arbre binari
+- Booleana -> Classe d'expressio booleana
+- Consulta -> Classe abstracta de consulta
+- ContingutDocument -> Classe de consulta de contingut de document
+- ExprBooleana -> Classe de consulta d'expressio booleana
+- Index -> Classe d'index de l'aplicacio
+- KmesRellevant -> Classe de consulta de k documents mes rellevants
+- KmesSemblant -> Classe de consulta de k documents mes semblants
+- Node -> Classe de node d'un arbre
+- OperacionResultat -> Classe abstracta d'operacio de resultats
+- OperacionResultatNoms -> Classe d'operacio de resultats de tipus 1
+- OperacionResultatPair -> Classe d'operacio de resultats de tipus 2
+- PrefixAutor -> Classe de consulta de prefixos autor
+- ResultatConsulta -> Classe abstracta de resultat de consulta
+- ResultatConsultaNoms -> Classe de resultat de consulta de tipus 1
+- ResultatConsultaPairs -> Classe de resultat de consulta de tipus 2
+- ResultatContingut -> Classe de resultat de consulta de tipus 3
+- TitolsAutor -> Classe de consulta de titols autor
+- Trie -> Classe de arbre tipus trie

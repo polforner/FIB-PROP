@@ -1,0 +1,5 @@
+DIRECTORI EXEC
+
+Aquest directori conte subdirectoris per cada test unitari fet sobre cada classe o pel driver amb el que es poden
+probar les funcionalitats principals del programa. Cada subdirectori conte l'executable, el joc de proves en cas
+del driver i la descripcio del joc de proves tant pel driver com pels tests unitaris.
